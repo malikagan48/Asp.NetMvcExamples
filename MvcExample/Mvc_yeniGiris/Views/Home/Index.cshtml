@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Burası index sayfası</h2>
+@{ 
+    var a =(Mvc_yeniGiris.Models.Ogrenci)ViewBag.Ogrenci;
+}
+
+<p>Öğrenci İd:@a.id</p>
+<p>Öğrenci ad:@a.Ad</p>
+<p>Öğrenci soyad:@a.Soyad</p>
